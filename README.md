@@ -33,5 +33,5 @@ This project is licensed under the MIT License. See the [LICENSE.txt](LICENSE.tx
 
 ## Author
 
-Created by Le Minh Ha. Original URL: [https://codepen.io/minhha12/pen/abbVJva](https://codepen.io/minhha12/pen/abbVJva).
+Created by Le Minh Ha. GitHub Page available at: [https://minha12.github.io/survey-form/](https://minha12.github.io/survey-form/).
 
