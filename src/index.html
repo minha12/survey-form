@@ -1,0 +1,48 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Bungee Shade' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Charm' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Cormorant SC' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Cormorant Infant' rel='stylesheet'>
+<link rel="stylesheet" href="style.css">
+<!DOCTYPE html>
+<html>
+  <main class="main">
+    <head id="page-header">
+      <h1 id="title">A Survey Form</h1>
+      <p id="description">Thank you for your time filling this form</p>
+    </head>
+    <body>
+      <form id="survey-form">
+        <label for="name" id="name-label">Name</label><br>
+        <input id="name" type="text" placeholder="Please enter your name here" required><br>
+        <label for="email" id="email-label">Email</label><br>
+        <input id ="email" type="email" placeholder="Please enter your email here" required><br>
+        <label for="number" id="number-label">Phone number</label><br>
+        <input id="number" type="number" placeholder="Please enter your phone number here" min="1111111" max="9999999"><br>
+        <div> 
+          <p>How long have you been our customer?</p>
+        <select id="dropdown">
+          <option value="first-time" selected>First time</option>
+          <option value="one-year">Lower than one year</option>
+          <option value="two-years">One year or more</option>
+        </select>
+        </div>
+          <p>Are you satisfied with our service?</p>
+          <label for="satisfied"><input id="satisfied" type="radio" name="satisfaction" value="satisfied">Satisfied</label>
+          <label for="unsatisfied"><input id="unsatisfied" type="radio" name="satisfaction" value=satisfied>Unsatisfied</label>
+        <div>
+          <p>Which services are your favourite?</p>
+          <label for="telephone"><input id="telephone" type="checkbox" name="favourite" value="telephone">Telephone</label><br>
+          <label for="online-game"><input id="online-game" type="checkbox" name="favourite" value="online-game">Online Gamming</label><br>
+          <label for="shopping-online"><input id="shopping-online" type="checkbox" name="favourite" value="shopping-online">Shopping Online</label>
+        </div>
+        <div>
+          <p>Your comments or suggestions about our services</p>
+          <textarea id="comments" rows="10" cols="50"></textarea><br>
+          <button id ="submit" type="submit">Submit</button>
+        </div>
+      </form>
+      
+    </body>
+  </main>
+</html>
